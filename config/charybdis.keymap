@@ -42,7 +42,7 @@
 
         QWERTY {
             bindings = <
-&kp ESC       &kp N1    &kp N2     &kp N3   &kp N4        &kp N5          &kp N6     &kp N7     &kp N8  &kp N9  &kp N0  &kp BACKSPACE
+&kp ESC       &kp N1    &kp N2     &kp N3   &kp N4        &kp N5          &kp N6     &kp N7     &kp N8  &kp N9  &kp N0  &kp LC(Z)
 &kp TAB       &kp SQT   &kp COMMA  &kp DOT  &kp P         &kp Y           &kp F      &kp G      &kp C   &kp R   &kp L   &kp FSLH
 &kp CAPSLOCK  &kp A     &kp O      &kp E    &kp U         &kp I           &kp D      &kp H      &kp T   &kp N   &kp S   &mo 2
 &kp LCTRL     &kp SEMI  &kp Q      &kp J    &kp K         &kp X           &kp B      &kp M      &kp W   &kp V   &kp Z   &kp DELETE
@@ -53,10 +53,10 @@
 
         Nav {
             bindings = <
-&kp F1           &kp F2    &kp F3        &kp F4            &kp F5           &kp F6           &kp F7        &kp F8        &kp F9        &kp F10       &kp F11       &kp F12
-&kp LG(TAB)      &trans    &kp LC(C)     &kp UP            &kp RC(V)        &kp LC(EQUAL)    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
+&kp LC(Z)        &kp F2    &kp F3        &kp F4            &kp F5           &kp F6           &kp F7        &kp F8        &kp F9        &kp F10       &kp F11       &kp F12
+&kp LC(Y)        &trans    &kp LC(C)     &kp UP            &kp RC(V)        &kp LC(EQUAL)    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
 &kp PRINTSCREEN  &trans    &kp LEFT      &kp DOWN          &kp RIGHT        &kp LC(MINUS)    &mkp LCLK     &mkp RCLK     &trans        &trans        &trans        &trans
-&kp RCTRL        &kp LALT  &kp C_VOL_DN  &kp C_PLAY_PAUSE  &kp C_VOLUME_UP  &trans           &trans        &trans        &trans        &trans        &trans        &kp DELETE
+&kp RCTRL        &kp LALT  &kp C_VOL_DN  &kp C_PLAY_PAUSE  &kp C_VOLUME_UP  &kp LG(TAB)      &trans        &trans        &trans        &trans        &trans        &kp DELETE
                                          &trans            &trans           &trans           &mkp MB4      &mkp MB5
                                                            &trans           &trans           &To0_macro
             >;
